@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+<head>
+	<meta charset="UTF-8">
+	<!-- <html lang="en"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if IE]><script>
+    	document.createElement('header');
+    	document.createElement('nav');
+    	document.createElement('section');
+    	document.createElement('article');
+    	document.createElement('aside');
+    	document.createElement('footer');
+	</script>
+	<![endif]-->
+	<title>Document</title>
+	<link rel="stylesheet" href="libs/Magnific-Popup/dist/magnific-popup.css">
+	<link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+
+	
+	
+	<link href="libs/slick-master/slick/slick-theme.css" rel="stylesheet"/>
+	<link href="libs/slick-master/slick/slick.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="animate.min.css">
+	<link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+	<div id="search-wrap">
+		<div class="search-window" id="search-window">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<form  class="search" method="post" target="_blank">
+				<input type="text" name="search__input" class="search__input search__input--black">
+				<label>
+					<input type="submit">
+					<svg id="search-icon" class="svg-icon" viewBox="0 0 24 24">
+						<path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+						<path fill="none" d="M0 0h24v24H0z">
+					</svg>
+				</label>
+			</form>
+
+		</div>
+	</div>
+	<div class="mobile-nav" id="mobile-nav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+		<div class="mobile-nav__menu">
+			<ul class="mobile-menu">
+					<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">About</a></li>
+					<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Service</a></li>
+					<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Work</a></li>
+					<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Blog</a></li>
+					<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Contact</a></li>
+				</ul>
+		</div>
+	</div>
+
+	
+	<section class="header">
+		<div class="sliderContainer">
+			<div class="slider single-item">
+				<div class="slide slide1">
+					<span class="slide__intro ">Creative Template</span>
+					<h1 class="slide__heading ">Welcome<br> to Mogo</h1>
+				</div>
+				<div class="slide slide2">
+					<span class="slide__intro">Creative Template</span>
+					<h1 class="slide__heading">Welcome<br> to Mogo</h1>
+				</div>
+				<div class="slide slide3">
+					<span class="slide__intro">Creative Template</span>
+					<h1 class="slide__heading">Welcome<br> to Mogo</h1>
+				</div>
+				<div class="slide slide4">
+					<span class="slide__intro">Creative Template</span>
+					<h1 class="slide__heading">Welcome<br> to Mogo</h1>
+				</div>
+			</div>
+			<div class="prrogressbarwrapper">
+				<div class="progressBarContainer">
+				<div>
+					<span class="progress-bar__number">01 <span class="progress-bar__text">intro</span></span>
+					<span data-slick-index="0" class="progressBar"></span>
+				</div>
+				<div>
+					<span class="progress-bar__number">02 <span class="progress-bar__text">work</span></span>
+					<span data-slick-index="1" class="progressBar"></span>
+				</div>
+				<div>
+					<span class="progress-bar__number">03 <span class="progress-bar__text">about</span></span>
+					<span data-slick-index="2" class="progressBar"></span>
+				</div>
+				<div>
+					<span class="progress-bar__number">04 <span class="progress-bar__text">contacts</span></span>
+					<span data-slick-index="3" class="progressBar"></span>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="top-panel">
+
+			<div class="top-panel__inner">
+				
+				<div class="logo">MoGo</div>
+				<div class="top-panel__content">
+					<nav>
+						<ul class="menu">
+							<li class="menu__item"><a href="#" class="menu__link">About</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Service</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Work</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+						</ul>
+					</nav>
+					<div class="top-panel__icons">
+						<a href="#" class=" top-panel__icon top-panel__icon--basket">
+							<svg width="18" height="18">
+								<use xlink:href='#SHOPPING_CART'></use>
+							</svg>
+						</a>
+						<a href="#" class=" top-panel__icon " onclick="openNav()">
+							<svg width="18" height="18">
+								<use xlink:href='#MAGNIFYING_GLASS'></use>
+							</svg>
+						</a>
+					</div>
+					<div class="top-panel__hamburger">
+						<a href="#" class="hamburger" onclick="openMenu()">
+							<span class="hamburger__line hamburger__line--top"></span>
+							<span class="hamburger__line hamburger__line--middle"></span>
+							<span class="hamburger__line hamburger__line--bottom"></span>
+						</a>
+					</div>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+		
+	</section>
+	
+	<section class="about-us">
+		<div class="about-us__inner">
+			<header class="section-heading wow fadeInUp">
+				<span class="section-heading__cursive ">What we do</span>
+				<h1 class="section-heading__regular">Story about us</h1>
+				<p class="section-heading__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</header>
+			
+			<div class="about-us__features">
+				<a href="#" class="feature wow fadeInUp">
+					<span class="feature__content feature__content--super-team">
+
+						<span class="feature__heading">
+							<span class="feature__icon">
+								<svg width="31" height="22">
+									<use xlink:href='#users'></use>
+								</svg>
+							</span>
+							Super Team
+						</span>
+					</span>
+				</a>
+				<a href="#" class="feature wow fadeInUp" data-wow-delay="0.3s">
+					<span class="feature__content feature__content--desktop">
+						<span class="feature__heading">
+							<span class="feature__icon">
+								<svg width="31" height="22">
+									<use xlink:href='#users'></use>
+								</svg>
+							</span>
+							Super Team
+						</span>
+					</span>
+				</a>
+				<a href="#" class="feature wow fadeInUp" data-wow-delay="0.6s">
+					<span class="feature__content feature__content--grass">
+						<span class="feature__heading">
+							<span class="feature__icon">
+								<svg width="31" height="22">
+									<use xlink:href='#users'/>
+								</svg>
+							</span>
+							Super Team
+						</span>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+	</section>
+
+	<section class="facts">
+		<div class="facts__inner">
+			<div class="fact">
+				<div class="stats_number" data-count="42"></div>
+				<div class="fact__text">Web Design Projects</div>
+			</div>
+			<div class="fact">
+				<div class="stats_number" data-count="123"></div>
+				<div class="fact__text">happy client</div>
+			</div>
+			<div class="fact">
+				<div class="stats_number" data-count="15"></div>
+				<div class="fact__text">award winner</div>
+			</div>
+			<div class="fact">
+				<div class="stats_number" data-count="99"></div>
+				<div class="fact__text">cup of coffee</div>
+			</div>
+			<div class="fact">
+				<div class="stats_number" data-count="24"></div>
+				<div class="fact__text">members</div>
+			</div>
+		</div>
+		
+	</section>
+	<section class="services">
+		<div class="services__inner">
+			<header class="section-heading wow fadeInUp">
+				<span class="section-heading__cursive">We work with</span>
+				<h1 class="section-heading__regular">Amazing services</h1>
+			</header>
+			<div class="services__items wow fadeIn" data-wow-duration="2s">
+				<div class="services__row services__row--top">
+					<div class="services__item">
+						<span class="services__item--icon">
+							<svg width="33" height="33">
+								<use xlink:href='#ALARM'/>
+							</svg>
+						</span>
+						<div class="services__item-content">
+							<div class="services__item-heading">Photography</div>
+							<div class="services__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quisquam quo ad?</div>
+						</div>
+						
+					</div>
+					<div class="services__item">
+						<span class="services__item--icon">
+							<svg width="33" height="33">
+								<use xlink:href='#LINE_GRAPH'/>
+							</svg>
+						</span>
+						<div class="services__item-content">
+							<div class="services__item-heading">Web design</div>
+							<div class="services__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quisquam quo ad?</div>
+						</div>
+						
+					</div>
+					<div class="services__item">
+						<span class="services__item--icon">
+							<svg width="33" height="33">
+								<use xlink:href='#COMPUTER___OK'/>
+							</svg>
+						</span>
+						<div class="services__item-content">
+							<div class="services__item-heading">Creativity</div>
+							<div class="services__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quisquam quo ad?</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="services__row">
+					<div class="services__item">
+						<span class="services__item--icon">
+							<svg width="33" height="33">
+								<use xlink:href='#BOOK_2'/>
+							</svg>
+						</span>
+						<div class="services__item-content">
+							<div class="services__item-heading">Seo</div>
+							<div class="services__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quisquam quo ad?</div>
+						</div>
+						
+					</div>
+					<div class="services__item">
+						<span class="services__item--icon">
+							<svg width="33" height="33">
+								<use xlink:href='#HOME'/>
+							</svg>
+						</span>
+						<div class="services__item-content">
+							<div class="services__item-heading">Css/Html</div>
+							<div class="services__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quisquam quo ad?</div>
+						</div>
+						
+					</div>
+					<div class="services__item">
+						<span class="services__item--icon">
+							<svg width="33" height="33">
+								<use xlink:href='#IMAGE'/>
+							</svg>
+						</span>
+						<div class="services__item-content">
+							<div class="services__item-heading">Digital</div>
+							<div class="services__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quisquam quo ad?</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="for-who">
+		<div class="for-who__inner">
+			<header class="section-heading wow fadeInUp">
+				<span class="section-heading__cursive">For all devices</span>
+				<h1 class="section-heading__regular">Unique design</h1>
+			</header>
+			<div class="for-who__wrap">
+				<div class="for-who__content   wow fadeInUp" data-wow-duration="2s">
+
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<section class="what-we-do">
+		<div class="what-we-do__inner">
+			<header class="section-heading">
+				<span class="section-heading__cursive wow fadeInUp">Service</span>
+				<h1 class="section-heading__regular wow fadeInUp">What we do</h1>
+				<p class="section-heading__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</header>
+			<div class="what-we-do__row">
+				<div class="what-we-do__image wow fadeInLeft"></div>
+				<div class="accordion wow fadeInRight">
+					<div class="tab">
+						<input id="tab-four" class="tab__input" type="radio" name="tabs2">
+						<label for="tab-four" class="tab__label ">
+							Photography
+							<span class="tab__label--icon">
+								<svg width="33" height="33">
+									<use xlink:href='#PICTURE'/>
+								</svg>
+							</span>
+							
+						</label>
+						<div class="tab-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati itaque velit vitae non ab saepe, asperiores dolorem dolores eligendi aliquam dolore enim eius id nam voluptatibus nobis, quibusdam voluptatem expedita veritatis eaque minima! Error cupiditate, reprehenderit reiciendis! Ex molestiae, id, consequatur ducimus eaque placeat velit sint ab, veritatis et dolorem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem omnis ratione soluta recusandae delectus, minima adipisci fugiat id non eaque nam aspernatur quia facilis ipsam numquam est cumque odit architecto molestias? Hic reprehenderit nulla perferendis, unde eaque modi saepe? Dolorum iusto, fuga recusandae, expedita cupiditate voluptates ipsum eum natus voluptatibus incidunt nulla! Eaque libero natus repudiandae aspernatur inventore commodi animi amet distinctio nesciunt, dolore, tempore minima doloremque quibusdam quia eius vitae laboriosam quaerat. Cumque ducimus, libero ipsa adipisci dolorem porro ut laudantium fuga asperiores dignissimos molestias veniam hic voluptas ipsum praesentium! Dolor totam eaque minima placeat error, consectetur eos soluta.</p>
+						</div>
+					</div>
+					<div class="tab">
+						<input id="tab-five" class="tab__input" type="radio" name="tabs2">
+						<label for="tab-five" class="tab__label">
+							Creativity
+							<span class="tab__label--icon">
+								<svg width="33" height="33">
+									<use xlink:href='#EQUALIZER'/>
+								</svg>
+							</span>
+						</label>
+						<div class="tab-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati itaque velit vitae non ab saepe, asperiores dolorem dolores eligendi aliquam dolore enim eius id nam voluptatibus nobis, quibusdam voluptatem expedita veritatis eaque minima! Error cupiditate, reprehenderit reiciendis! Ex molestiae, id, consequatur ducimus eaque placeat velit sint ab, veritatis et dolorem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem omnis ratione soluta recusandae delectus, minima adipisci fugiat id non eaque nam aspernatur quia facilis ipsam numquam est cumque odit architecto molestias? Hic reprehenderit nulla perferendis, unde eaque modi saepe? Dolorum iusto, fuga recusandae, expedita cupiditate voluptates ipsum eum natus voluptatibus incidunt nulla! Eaque libero natus repudiandae aspernatur inventore commodi animi amet distinctio nesciunt, dolore, tempore minima doloremque quibusdam quia eius vitae laboriosam quaerat. Cumque ducimus, libero ipsa adipisci dolorem porro ut laudantium fuga asperiores dignissimos molestias veniam hic voluptas ipsum praesentium! Dolor totam eaque minima placeat error, consectetur eos soluta.</p>
+						</div>
+					</div>
+					<div class="tab">
+						<input id="tab-six" class="tab__input" type="radio" name="tabs2">
+						<label for="tab-six" class="tab__label">
+							Web design
+							<span class="tab__label--icon">
+								<svg width="33" height="33">
+									<use xlink:href='#BULLSEYE'/>
+								</svg>
+							</span>
+						</label>
+						<div class="tab-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati itaque velit vitae non ab saepe, asperiores dolorem dolores eligendi aliquam dolore enim eius id nam voluptatibus nobis, quibusdam voluptatem expedita veritatis eaque minima! Error cupiditate, reprehenderit reiciendis! Ex molestiae, id, consequatur ducimus eaque placeat velit sint ab, veritatis et dolorem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem omnis ratione soluta recusandae delectus, minima adipisci fugiat id non eaque nam aspernatur quia facilis ipsam numquam est cumque odit architecto molestias? Hic reprehenderit nulla perferendis, unde eaque modi saepe? Dolorum iusto, fuga recusandae, expedita cupiditate voluptates ipsum eum natus voluptatibus incidunt nulla! Eaque libero natus repudiandae aspernatur inventore commodi animi amet distinctio nesciunt, dolore, tempore minima doloremque quibusdam quia eius vitae laboriosam quaerat. Cumque ducimus, libero ipsa adipisci dolorem porro ut laudantium fuga asperiores dignissimos molestias veniam hic voluptas ipsum praesentium! Dolor totam eaque minima placeat error, consectetur eos soluta.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<section class="quotes">
+		<div class="quote__inner ">
+			<div class="quotes__carousel">
+				<div class="quote__wrap">
+					<div class="quote ">
+						<div class="quote__icon">
+							<svg width="70" height="70">
+								<use xlink:href='#SPEECH_4'/>
+							</svg>
+						</div>
+						<div class="quote__content">
+							<p class="quote__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, laboriosam ipsum rem distinctio rerum atque nulla necessitatibus repellendus ex eos, similique expedita nobis labore.</p>
+							<div class="quote-author">Jon Doe</div>	
+						</div>
+					</div>
+				</div>
+				
+				<div class="quote__wrap">
+					<div class="quote ">
+						<div class="quote__icon">
+							<svg width="70" height="70">
+								<use xlink:href='#SPEECH_4'/>
+							</svg>
+						</div>
+						<div class="quote__content">
+							<p class="quote__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, laboriosam ipsum rem distinctio rerum atque nulla necessitatibus repellendus ex eos, similique expedita nobis labore.</p>
+							<div class="quote-author">Jon Doe</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider__nav">
+					<div class="slider__button prev">
+							<svg height="512px" class="slider__icon slider__icon--rotated" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 "/></svg>
+					</div>
+					<div class="slider__button next">
+							<svg height="512px" class="slider__icon" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 "/></svg>
+					</div>
+
+			</div>
+			
+		</div>
+	</section>
+	<section class="our-team">
+		<div class="our-team__inner">
+			<header class="section-heading">
+				<span class="section-heading__cursive wow fadeInUp">Who we are</span>
+				<h1 class="section-heading__regular wow fadeInUp">Meet our team</h1>
+				<p class="section-heading__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</header>
+			<div class="our-team__persons">
+				<div class="person">
+					<div class="person__bg">
+						<div class="person__photo person__photo--christopher">
+							<div class="person__links">
+								<a href="" class="person__link">
+									<svg width="100%" height="100%">
+										<use xlink:href='#facebook'/>
+									</svg>
+								</a>
+								<a href="" class="person__link">
+									<svg width="100%" height="100%">
+										<use xlink:href='#twitter'/>
+									</svg>
+								</a>
+								<a href="" class="person__link">
+									<svg width="100%" height="100%">
+										<use xlink:href='#pinterest'/>
+									</svg>
+								</a>
+								<a href="" class="person__link">
+									<svg width="100%" height="100%">
+										<use xlink:href='#dribbble'/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+					<span class="person__name">Matthew Dix</span>
+					<span class="person__proffeesion">Graphic Design</span>
+
+				</div>
+				<div class="person">
+					<div class="person__bg">
+						<div class="person__photo person__photo--matthew">
+							<div class="person__links">
+								<a href="" class="person__link">
+									<svg width="100%" height="100%">
+										<use xlink:href='#facebook'/>
+									</svg>
+								</a>
+								<a href="" class="person__link">
+									<svg width="100%" height="100%">
+										<use xlink:href='#twitter'/>
+									</svg>
+								</a>
+								<a href="" class="person__link">
+									<svg width="100%" height="100%">
+										<use xlink:href='#pinterest'/>
+									</svg>
+								</a>
+								<a href="" class="person__link">
+									<svg width="100%" height="100%">
+										<use xlink:href='#dribbble'/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+					<span class="person__name">Christopher Cambell</span>
+					<span class="person__proffeesion">Branding/UX Desing</span>
+
+				</div>
+				<div class="person">
+					<div class="person__bg">
+						<div class="person__photo person__photo--michael">
+							<div class="person__links">
+								<a href="" class="person__link">
+									<svg width="100%" height="100%">
+										<use xlink:href='#facebook'/>
+									</svg>
+								</a>
+								<a href="" class="person__link">
+									<svg width="100%" height="100%">
+										<use xlink:href='#twitter'/>
+									</svg>
+								</a>
+								<a href="" class="person__link">
+									<svg width="100%" height="100%">
+										<use xlink:href='#pinterest'/>
+									</svg>
+								</a>
+								<a href="" class="person__link">
+									<svg width="100%" height="100%">
+										<use xlink:href='#dribbble'/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+					<span class="person__name">Micheal Fertig</span>
+					<span class="person__proffeesion">Developer</span>
+
+				</div>
+				
+				
+			</div>
+		</div>
+	</section>
+	<section class="logos">
+		<div class="logos__inner">
+			<div class="logos__carousel">
+				<div class="logotype">
+				<img src="img/logos/logo1.jpg" alt="" class="logotype__img">
+			</div>
+			<div class="logotype">
+				<img src="img/logos/logo2.jpg" alt="" class="logotype__img">
+			</div>
+			<div class="logotype">
+				<img src="img/logos/logo3.jpg" alt="" class="logotype__img">
+			</div>
+			<div class="logotype">
+				<img src="img/logos/logo4.jpg" alt="" class="logotype__img">
+			</div>
+			<div class="logotype">
+				<img src="img/logos/logo5.jpg" alt="" class="logotype__img">
+			</div>
+			<div class="logotype">
+				<img src="img/logos/logo6.jpg" alt="" class="logotype__img">
+			</div>
+			<div class="logotype">
+				<img src="img/logos/logo5.jpg" alt="" class="logotype__img">
+			</div>
+			<div class="logotype">
+				<img src="img/logos/logo6.jpg" alt="" class="logotype__img">
+			</div>
+			
+			</div>
+			
+		</div>
+		
+	</section>
+	<section class="our-works">
+		<div class="our-works__inner">
+			<header class="section-heading">
+				<span class="section-heading__cursive wow fadeInUp">What we do</span>
+				<h1 class="section-heading__regular wow fadeInUp">Some of our work</h1>
+				<p class="section-heading__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</header>
+		</div>
+		<div class="works">
+
+				<a href="img/work-1.jpg" class="work work-order-2 image-popup-no-margins work1">
+					<span class="work__about-wrap">
+						<span class="work__about">
+							<span class="work__content">
+								<span class="work-icon">
+									<svg width="33" height="33">
+										<use xlink:href='#PICTURE'/>
+									</svg>
+								</span>
+									
+								
+								<span class="work__heading">Creatively Designed</span>
+								<span class="work__text">Lorem ipsum dolor.</span>
+							</span>
+
+						</span>
+					</span>
+					
+				</a>
+				<a href="img/work-2.jpg" class="work image-popup-no-margins work2">	
+					<span class="work__about-wrap">
+						<span class="work__about">
+							<span class="work__content">
+								<span class="work__heading">Creatively Designed</span>
+								<span class="work__text">Lorem ipsum dolor.</span>
+							</span>
+							
+						</span>
+					</span>	
+				</a>
+				<a href="img/work-3.jpg" class="work image-popup-no-margins work3">	
+					<span class="work__about-wrap">
+						<span class="work__about">
+							<span class="work__content">
+								<span class="work__heading">Creatively Designed</span>
+								<span class="work__text">Lorem ipsum dolor.</span>
+							</span>
+							
+						</span>
+					</span>	
+				</a>
+				<a href="img/work-4.jpg" class="work image-popup-no-margins work4">	
+					<span class="work__about-wrap">
+						<span class="work__about">
+							<span class="work__content">
+								<span class="work__heading">Creatively Designed</span>
+								<span class="work__text">Lorem ipsum dolor.</span>
+							</span>
+							
+						</span>
+					</span>	
+				</a>
+				<a href="img/work-5.jpg" class="work image-popup-no-margins work5">	
+					<span class="work__about-wrap">
+						<span class="work__about">
+							<span class="work__content">
+								<span class="work__heading">Creatively Designed</span>
+								<span class="work__text">Lorem ipsum dolor.</span>
+							</span>
+							
+						</span>
+					</span>	
+				</a>
+				<a href="img/work-6.jpg" class="work work-order-3 image-popup-no-margins work6">		
+					<span class="work__about-wrap">
+						<span class="work__about">
+							<span class="work__content">
+								<span class="work__heading">Creatively Designed</span>
+								<span class="work__text">Lorem ipsum dolor.</span>
+							</span>
+							
+						</span>
+					</span>
+				</a>
+				<a href="img/work-7.jpg" class="work work-order-3 image-popup-no-margins work7">	
+					<span class="work__about-wrap">
+						<span class="work__about">
+							<span class="work__content">
+								<span class="work__heading">Creatively Designed</span>
+								<span class="work__text">Lorem ipsum dolor.</span>
+							</span>
+							
+						</span>
+					</span>	
+				</a>
+			
+		</div>
+	</section>
+	<section class="testimonials">
+		<div class="testimonials__inner ">
+			<div class="testimonials__carousel">
+				<div class="testimonial__wrap">
+					<div class="testimonial ">
+						<div class="testimonial__photo testimonial__photo--joshua"></div>
+						<div class="testimonial__content">
+							<p class="testimonial__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, laboriosam ipsum rem distinctio rerum atque nulla necessitatibus repellendus ex eos, similique expedita nobis labore.</p>
+							<div class="testimonial-author">Joshua Earle</div>	
+						</div>
+					</div>
+				</div>
+				<div class="testimonial__wrap">
+					<div class="testimonial ">
+						<div class="testimonial__photo"></div>
+						<div class="testimonial__content">
+							<p class="testimonial__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, laboriosam ipsum rem distinctio rerum atque nulla necessitatibus repellendus ex eos, similique expedita nobis labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem vel, quae neque, labore minima laudantium aliquid reiciendis non asperiores quos recusandae libero eos cumque culpa nisi ipsum, doloribus commodi. Soluta id laborum dignissimos, officia, tempora repudiandae eaque facilis saepe aliquam sed, earum veniam distinctio accusantium aperiam vitae nemo omnis beatae?</p>
+							<div class="testimonial-author">Jon Doe</div>	
+						</div>
+					</div>
+				</div>
+				
+				
+				
+			</div>
+			<div class="slider__nav">
+					<div class="slider__button prev2">
+							<svg height="512px" class="slider__icon slider__icon--rotated" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 "/></svg>
+					</div>
+					<div class="slider__button next2">
+							<svg height="512px" class="slider__icon" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 "/></svg>
+					</div>
+
+			</div>
+		</div>
+	</section>
+	<section class="happy-clients">
+		<div class="happy-clients__inner">
+			<header class="section-heading">
+				<span class="section-heading__cursive">Happy clients</span>
+				<h1 class="section-heading__regular">What people say</h1>
+			</header>
+			<div class="clients">
+				<div class="clients__row clients__row--top">
+					<div class="client-review wow fadeInLeft">
+						<div class="client-review__photo client-review__photo--matthew"></div>
+						<div class="client-review__content">
+							<div class="client-review__name">Matthew Dix</div>
+							<div class="client-review__occupation">Graphic Design</div>
+							<blockquote class="client-review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</blockquote>
+						</div>
+					</div>
+					<div class="client-review wow fadeInRight">
+						<div class="client-review__photo client-review__photo--nick"></div>
+						<div class="client-review__content">
+							<div class="client-review__name">Nick Karvounis</div>
+							<div class="client-review__occupation">Graphic Design</div>
+							<blockquote class="client-review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</blockquote>
+						</div>
+					</div>
+				</div>
+				<div class="clients__row">
+					<div class="client-review wow fadeInLeft">
+						<div class="client-review__photo client-review__photo--jaelynn"></div>
+						<div class="client-review__content">
+							<div class="client-review__name">Jaelynn Castillo </div>
+							<div class="client-review__occupation">Graphic Design</div>
+							<blockquote class="client-review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</blockquote>
+						</div>
+					</div>
+					<div class="client-review wow fadeInRight">
+						<div class="client-review__photo client-review__photo--mike"></div>
+						<div class="client-review__content">
+							<div class="client-review__name">Mike Petrucci</div>
+							<div class="client-review__occupation">Graphic Design</div>
+							<blockquote class="client-review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="our-blog">
+		<div class="our-blog__inner">
+			<header class="section-heading">
+				<span class="section-heading__cursive wow fadeInUp ">Our stories</span>
+				<h1 class="section-heading__regular wow fadeInUp">Latest Blog</h1>
+			</header>
+			<div class="posts">
+				<div class="post wow fadeInUp" >
+					<div class="post__image post1">
+						<div class="post__date">
+							<div class="post__day-of-month">15</div>
+							<div class="post__day-of-week">Jan</div>
+						</div>
+					</div>
+					
+					<div class="post__heading">Lorem ipsum dolor sit amet.</div>
+					<div class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, ipsum quaerat officiis obcaecati repellat?</div>
+					<div class="post__info">
+						<span class="post__information">
+							<span class="post__icon">
+								<svg width="100%" height="100%">
+									<use xlink:href='#VIEW'/>
+								</svg>
+							</span>
+							<span class="post__views">542</span>
+						</span>
+						<span class="post__information"">
+							<span class="post__icon">
+								<svg width="100%" height="100%">
+									<use xlink:href='#SPEECH_4'/>
+								</svg>
+							</span>
+							<span class="post__comments">17</span>
+						</span>
+					</div>
+				</div>
+				<div class="post wow fadeInUp" data-wow-duration="1.3s">
+					<div class="post__image post2">
+						<div class="post__date">
+							<div class="post__day-of-month">15</div>
+							<div class="post__day-of-week">Jan</div>
+						</div>
+					</div>
+
+					<div class="post__heading">Lorem ipsum dolor sit amet.</div>
+					<div class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, ipsum quaerat officiis obcaecati repellat?</div>
+					<div class="post__info">
+						<span class="post__information">
+							<span class="post__icon">
+								<svg width="100%" height="100%">
+									<use xlink:href='#VIEW'/>
+								</svg>
+							</span>
+							<span class="post__views">992</span>
+						</span>
+						<span class="post__information"">
+							<span class="post__icon">
+								<svg width="100%" height="100%">
+									<use xlink:href='#SPEECH_4'/>
+								</svg>
+							</span>
+							<span class="post__comments">42</span>
+						</span>
+					</div>
+				</div>
+				<div class="post wow fadeInUp" data-wow-duration="1.6s">
+					<div class="post__image post3" >
+						<div class="post__date">
+							<div class="post__day-of-month">15</div>
+							<div class="post__day-of-week">Jan</div>
+						</div>
+					</div>
+
+					<div class="post__heading">Lorem ipsum dolor sit amet.</div>
+					<div class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, ipsum quaerat officiis obcaecati repellat?</div>
+					<div class="post__info">
+						<span class="post__information">
+							<span class="post__icon">
+								<svg width="100%" height="100%">
+									<use xlink:href='#VIEW'/>
+								</svg>
+							</span>
+							<span class="post__views">1560</span>
+						</span>
+						<span class="post__information"">
+							<span class="post__icon">
+								<svg width="100%" height="100%">
+									<use xlink:href='#SPEECH_4'/>
+								</svg>
+							</span>
+							<span class="post__comments">98</span>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="map">
+		<a href="#" class="map__opening">
+
+			<span class="map__icon">
+				<svg width="26" height="26">
+					<use xlink:href='#PIN_2'/>
+				</svg>
+			</span>
+			<h2 class="map__text">Open map</h2>
+		</a>
+	</section>
+ 	<footer class="footer">
+		<div class="footer__inner">
+			<div class="footer__content">
+				<div class="footer__about-us">
+					<div class="footer-info">
+						<div class="footer-info__logo">MoGo</div>
+						<div class="footer-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </div>
+					</div>
+					<div class="footer-social">
+						<div class="footer-social__followers">
+							<span class="footer-social__followers--bold">15k</span> followers
+						</div>
+						<div class="footer-social__follow-us">
+							<span class="footer-social__text">Follow Us:</span>
+							<div class="follow-us">
+								<a href="#" class="follow-us__icon">
+									<svg width="16" height="16">
+										<use xlink:href='#facebook'></use>
+									</svg>
+									
+								</a>
+								<a href="#"class="follow-us__icon follow-us__icon--tw">
+									<svg width="16" height="16">
+										<use xlink:href='#twitter'></use>
+									</svg>
+								</a>
+								<a href="#" class="follow-us__icon follow-us__icon--inst">
+									<svg width="16" height="16">
+										<use xlink:href='#instagram'></use>
+									</svg>
+								</a>
+								<a href="#" class="follow-us__icon follow-us__icon--pinterest">
+									<svg width="16" height="16">
+										<use xlink:href='#pinterest'></use>
+									</svg>
+								</a>
+								<a href="#" class="follow-us__icon follow-us__icon--google">
+									<svg width="16" height="16">
+										<use xlink:href='#google_plus'></use>
+									</svg>
+								</a>
+								<a href="#" class="follow-us__icon follow-us__icon--youtube">
+									<svg width="16" height="16">
+										<use xlink:href='#youtube'></use>
+									</svg>
+								</a>
+								<a href="#" class="follow-us__icon follow-us__icon--dribbble">
+									<svg width="16" height="16">
+										<use xlink:href='#dribbble'></use>
+									</svg>
+								</a>
+								<a href="#" class="follow-us__icon follow-us__icon--tumblr">
+									<svg width="16" height="16">
+										<use xlink:href='#tumblr'></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+						<!-- <div class="footer-social__subscribe">
+							<form action="" class="subscribe-form">
+								<input type="text" name="email" class="subscribe-form__textarea" placeholder="Your Email">
+								<input type="submit" class="subscribe-form__button" value="Subscribe">
+							</form>
+						</div> -->
+					</div>
+				</div>
+				<div class="footer__blogs">
+					<div class="blogs">
+						<div class="blogs__heading">Blogs</div>
+						<div class="blogs-post">
+							<div class="blogs-post__image blogs-post__image-1"></div>
+							<div class="blogs-post__content">
+								<h3 class="blogs-post__heading">Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+								<div class="blogs-post__date">Jan 9, 2018</div>
+							</div>
+							
+						</div>
+						<div class="blogs-post">
+							<div class="blogs-post__image blogs-post__image-2"></div>
+							<div class="blogs-post__content">
+								<h3 class="blogs-post__heading">Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+								<div class="blogs-post__date">Jan 9, 2018</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="footer__instagram">
+					<div class="instagram">
+						<div class="instagram__heading">Instagram</div>
+						<div class="instagram__grid">
+							<div class="instagram__row">
+
+								<a href="#" class="instagram__image instagram__image-1"></a>
+								<a href="#" class="instagram__image instagram__image-2"></a>
+								<a href="#" class="instagram__image instagram__image-3"></a>
+							</div>
+							<div class="instagram__row">
+								<a href="#" class="instagram__image instagram__image-4"></a>
+								<a href="#" class="instagram__image instagram__image-5"></a>
+								<a href="#" class="instagram__image instagram__image-6"></a>
+							</div>
+							<div class="instagram__row">
+								<a href="#" class="instagram__image instagram__image-7"></a>
+								<a href="#" class="instagram__image instagram__image-8"></a>
+								<a href="#" class="instagram__image instagram__image-9"></a>
+							</div>
+						</div>
+						<a href="" class="instagram__view-more">View more photos</a>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">© 2016 MoGo free PSD template by <a href="" class="copyright__link">Laaqiq</a></div>
+		</div>
+
+	</footer>
+	
+
+<script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="libs/waypoints/lib/jquery.waypoints.js" type="text/javascript"></script>
+<script src="libs/jquery-animateNumber-master/jquery.animateNumber.min.js" type="text/javascript"></script>
+<script src="libs/Magnific-Popup/dist/jquery.magnific-popup.min.js" type="text/javascript"></script>
+<script src="libs/wow.min.js"></script>
+<script src="libs/slick-master/slick/slick.min.js"></script>
+
+<script src="main.js" type="text/javascript"></script>
+	
+</body>
+</html>
